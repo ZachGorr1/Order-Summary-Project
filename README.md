@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Screenshot
 
-#(./screenshot.png)
+![alt text](./screenshot.png)
 
 ### Built with
 
