@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+:root{
+
+    --PaleBlue: hsl(225, 100%, 94%);
+    --BrightBlue: hsl(245, 75%, 52%);
+
+    --veryPaleBlue: hsl(225, 100%, 98%);
+    --DesaturatedBlue: hsl(257, 100%, 73%);
+    --DarkBlue: hsl(223, 47%, 23%);
+
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display' sans-serif;
+
+
+}
+
+body {
+
+    background-color: var(--PaleBlue);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+}
+
+#container {
+    border-radius: 2rem;
+    position: relative;
+    top: -2.5rem;
+    margin: auto;
+    width: 35%;
+    max-width: 35%;
+    padding-top: 5rem;
+    
+
+}
+
+h1{
+    position: relative;
+    top: -.3rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    font-size: 1.75rem;
+}
+
+#message {
+    position: relative;
+    top: -.3rem;
+    background-color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: center;
+    color: rgb(61, 61, 61);
+}
+
+section{
+    position: relative;
+    background-color: white;
+    top: -.3rem;
+    padding-top: 2rem;
+
+}
+
+#small-section {
+    position: relative;
+    margin: auto;
+    background-color: var(--veryPaleBlue);
+    width: 75%;
+    height: 12vh;
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+#musical-note {
+
+    position: relative;
+    right: 8rem;
+    top: -.75rem;
+}
+
+#action-title {
+
+    position: relative;
+    top: -3.75rem;
+    right: 3rem;
+    font-size: 1rem;
+}
+
+#action-price {
+
+    position: relative;
+    top: -3.5rem;
+    right: 3.75rem;
+    font-size: .825rem;
+}
+
+#action-button {
+
+    position: relative;
+    top: -5rem;
+    left: 7rem;
+}
+
+#action-button:hover {
+
+    text-decoration: none;
+    color: var(--DesaturatedBlue);
+
+}
+
+#button-section {
+    
+    position: relative;
+    top: -3rem;
+    right: 3.5rem;
+    z-index: -1;
+    width: 28rem;
+    height: 10rem;
+    background-color: white;
+
+}
+
+#payment-button {
+
+    position: relative;
+    padding: .75rem;
+    left: 3rem;
+    width: 75%;
+    background-color: var(--BrightBlue);
+    border-radius: .5rem;
+    border: none;
+    color: white;
+    
+}
+
+#payment-button:hover {
+
+    background-color: var(--DesaturatedBlue);
+}
+
+#cancel-order {
+
+    position: relative;
+    top: 4rem;
+    right: 10rem;
+    background-color: white;
+    height: 3rem;
+    text-decoration: none;
+    color: var(--DesaturatedBlue);
+}
+
+#cancel-order:hover {
+     color: black;
+}
